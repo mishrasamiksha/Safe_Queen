@@ -59,7 +59,8 @@ bool solveNQueen(int board[][10],int i,int n)
             }
             cout<<"\n";
         }
-        return true;
+        return false;
+        //On returning false, it will print all possible cominations.
     }
     //Recursive case
     for(int j=0;j<n;j++)
